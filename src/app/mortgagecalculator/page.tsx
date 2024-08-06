@@ -1,7 +1,7 @@
 "use client";
-import { useState } from "react";
+import { FC, useState } from "react";
 
-const page = () => {
+const page: FC = () => {
   const [principal, setPrincipal] = useState<number>(0);
   const [rate, setRate] = useState<number>(0);
   const [years, setYears] = useState<number>(0);

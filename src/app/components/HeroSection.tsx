@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { FC } from "react";
 
-const HeroSection = () => {
+const HeroSection: FC = () => {
   return (
     <div className="m-auto max-w-screen-2xl overflow-hidden px-6 md:px-10 lg:px-14">
       <h1 className="z-10 pt-10 md:pt-0 text-3xl text-[50px] lg:text-[119px] leading-none mb-4 text-lightgreen font-bold text-center md:relative bottom-[-100px]">
